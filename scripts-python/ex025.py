@@ -1,7 +1,6 @@
 nome = input("Digite o seu nome completo: ").lower()
-lista_nome = nome.split()
 
-if lista_nome.count("silva") >= 1:
+if 'silva' in nome:
     print("Parabeeeeens, seu nome tem Silva")
 else: 
     print("Infelizmente você não faz parte da família Silva")

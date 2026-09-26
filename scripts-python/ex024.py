@@ -1,4 +1,4 @@
-cidade = input("Digite o nome da sua cidade: ")
+cidade = input("Digite o nome da sua cidade: ").strip()
 lista_cidade = cidade.split()
 
 if lista_cidade[0].lower() == "santo":
